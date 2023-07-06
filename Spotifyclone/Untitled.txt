@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Music for life</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="Pink Spotify Icon.jpeg" alt="Spotify" width="40" height="50">Spotify </li>
+            <li>Home</li>
+            <li>About</li>
+        
+        </ul>
+    </nav>
+    <div class="container">
+         <div class="songlist">
+            <h1>Best of PoP - No Copyright Music</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="cute.jpeg" alt="1">
+                    <audio src="4MP3"></audio>
+                    <span class="songName">Attention</span>
+                    <span class="songlistplay"><span class="timestamp">03:52 <i id= "0" class="fa-solidd songItemPlay fa-circle-play" style="color: #f57ac2;"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="cute.jpeg" alt="1">
+                    <span class="songName">Attention</span>
+                    <span class="songlistplay"><span class="timestamp">03:52 <i id= "1" class="fa-solid songItemPlay fa-circle-play" style="color: #f57ac2;"></i></span></span>
+                </div>                
+                <div class="songItem">
+                    <img src="cute.jpeg" alt="1">
+                    <span class="songName">Attention</span>
+                    <span class="songlistplay"><span class="timestamp">03:52 <i id= "2" class="fa-solidd songItemPlay fa-circle-play" style="color: #f57ac2;"></i></span></span>
+                </div>            
+                 <div class="songItem">
+                    <img src="cute.jpeg" alt="1">
+                    <span class="songName">Attention</span>
+                    <span class="songlistplay"><span class="timestamp">03:52 <i id= "3" class="fa-solid songItemPlay fa-circle-play" style="color: #f57ac2;"></i></span></span>
+                </div>
+                 <div class="songItem">
+                    <img src="1.jpeg" alt="1">
+                    <span class="songName">Attention</span>
+                    <span class="songlistplay"><span class="timestamp">03:52 <i id= "4" class="fa-solid songItemPlay fa-circle-play" style="color: #f57ac2;"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="cute.jpeg" alt="1">
+                    <span class="songName">Attention</span>
+                    <span class="songlistplay"><span class="timestamp">03:52 <i id= "5" class="fa-solid songItemPlay fa-circle-play" style="color: #f57ac2;"></i></span></span>
+                </div>
+                 <div class="songItem">
+                    <img src="cute.jpeg" alt="1">
+                    <span class="songName">Attention</span>
+                    <span class="songlistplay"><span class="timestamp">03:52<i id= "6" class="fa-solid songItemPlay fa-circle-play" style="color: #f57ac2;"></i></span></span>
+                </div>
+                
+                <div class="songItem">
+                    <img src="cute.jpeg" alt="1">
+                    <span class="songName">Attention</span>
+                    <span class="songlistplay"><span class="timestamp">03:52 <i id= "7" class="fa-solid songItemPlay fa-circle-play" style="color: #f57ac2;"></i></span></span>
+                </div>
+               <div class="songItem">
+                    <img src="cute.jpeg" alt="1">
+                    <span class="songName">Attention</span>
+                    <span class="songlistplay"><span class="timestamp">03:52<i id= "8" class="fa-solid songItemPlay fa-circle-play" style="color: #f57ac2;"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="cute.jpeg" alt="1">
+                    <span class="songName">Attention</span>
+                    <span class="songlistplay"><span class="timestamp">03:52 <i id= "9" class="fa-solid songItemPlay fa-circle-play" style="color: #f57ac2;"></i></span></span>
+                </div>
+                             
+            </div>
+         </div>
+          <div class="songCover"></div>
+    </div>
+     <div class="bottom">
+        <input type="range" name="range" id="progressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!--fontawesome icons -->
+            <i class="fa-solid fa-backward-step" style="color: #f57ac2;" id="previous"></i>
+            <i class="fa-solid fa-circle-play" style="color: #f57ac2;" id="masterplay"></i>
+            <i class="fa-solid fa-forward-step" style="color: #f57ac2;" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="https://media.giphy.com/media/mXbQ2IU02cGRhBO2ye/giphy.gif" width="42px" alt="" id="gif" > <span id="masterSongName">Beautiful</span>
+        </div>
+     </div>
+     <!--<script src="https://fontawesome.com/kits/cc4780bf4e/setup"></script>-->
+     <script src="https://kit.fontawesome.com/cc4780bf4e.js" crossorigin="anonymous"></script>
+     
+
+    <script src="script.js"></script>
+</body>
+</html>
